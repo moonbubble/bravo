@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visits",
+  "info": {
+    "name": "visit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visited": {
+      "type": "datetime"
+    },
+    "restaurant": {
+      "model": "restaurant"
+    }
+  }
+}
